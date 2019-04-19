@@ -18,6 +18,7 @@ function pressIt() {
       alert('You pressed G')
     }
   });
+  return;
 }
 
 function submitIt() {
