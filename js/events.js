@@ -27,7 +27,7 @@ function submitIt() {
 $(document).ready(function(){
 
 getIt()
-//frameIt()
+frameIt()
 pressIt()
 submitIt()
 
