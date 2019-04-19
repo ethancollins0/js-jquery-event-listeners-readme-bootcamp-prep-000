@@ -26,5 +26,7 @@ function submitIt() {
 
 $(document).ready(function(){
 
-  //getIt()
+  getIt()
+  submitIt()
+  pressIt()
 });
