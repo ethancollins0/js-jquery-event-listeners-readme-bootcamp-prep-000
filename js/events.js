@@ -2,14 +2,12 @@ function getIt() {
   $('p').on('click', function() {
     alert("Hey!")
   });
-  return;
 }
 
 function frameIt() {
   $('img').on('load', function() {
     $('img').addClass('tasty');
   });
-  return;
 }
 
 function pressIt() {
@@ -18,14 +16,12 @@ function pressIt() {
       alert('You pressed G')
     }
   });
-  return;
 }
 
 function submitIt() {
   $('input:submit').on('click', function() {
     alert("Your form is going to be submitted now.")
   });
-  return;
 }
 
 $(document).ready(function(){
